@@ -107,8 +107,6 @@ public class MainActivity extends AppCompatActivity {
             text = cursor.getString(2);
             texts.add(text);
             Log.i("확인", "text의 값: "+text);
-
-
         }
         cursor.close();
         sqlDB.close();
